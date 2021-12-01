@@ -73,7 +73,19 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
+BASEURL = 'https://egcjosd.herokuapp.com'
+
+APIS = {
+    'authentication': 'https://egcjosd.herokuapp.com',
+    'base': 'https://egcjosd.herokuapp.com',
+    'booth': 'https://egcjosd.herokuapp.com',
+    'census': 'https://egcjosd.herokuapp.com',
+    'mixnet': 'https://egcjosd.herokuapp.com',
+    'postproc': 'https://egcjosd.herokuapp.com',
+    'store': 'https://egcjosd.herokuapp.com',
+    'visualizer': 'https://egcjosd.herokuapp.com',
+    'voting': 'https://egcjosd.herokuapp.com',
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
